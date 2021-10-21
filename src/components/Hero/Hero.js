@@ -13,7 +13,8 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         Hello, I'm Hamed Najafi AKA Hpinger<br/>
-        I'm a full-stack web developer
+        I'm a full-stack web developer<br/>
+        Most of my works are for banks so due to confidentiality reasons i can't put them here
       </SectionText>
       <Button onClick={()=> window.open('https://www.linkedin.com/in/hamed-najafi-7610411a1/', '_blank')}>
         Learn More
