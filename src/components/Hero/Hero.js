@@ -9,12 +9,13 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome to <br/>
-        My Personal Portfolio
+        Hpinger's Portfolio
       </SectionTitle>
-      <SectionText>some thing that i want to say to my employers
-        there is something you should know about javascript that it will take a lot of time from you and you should work as hard as you can to achieve a good level of experience to be able to get good job offers
+      <SectionText>
+        Hello, I'm Hamed Najafi AKA Hpinger<br/>
+        I'm a full-stack web developer
       </SectionText>
-      <Button onClick={()=> window.location = 'https://google.com'}>
+      <Button onClick={()=> window.open('https://www.linkedin.com/in/hamed-najafi-7610411a1/', '_blank')}>
         Learn More
       </Button>
     </LeftSection>

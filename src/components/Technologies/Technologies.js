@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiAndroid } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,10 +8,10 @@ const Technologies = () =>  (
     <SectionDivider/>
     <br/>
     <SectionTitle> Technologies</SectionTitle>
-    <SectionText> i have worked with many different libraries in javaScript so im pretty good at java script</SectionText>
+    <SectionText> i have worked with many different libraries in javaScript</SectionText>
     <List>
       <ListItem>
-        <DiFirebase size={'3rem'}/>
+        <DiReact size={'3rem'}/>
         <ListContainer>
           <ListTitle>Front-end</ListTitle>
           <ListParagraph>
@@ -21,7 +21,8 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiReact size={'3rem'}/>
+
+        <DiFirebase size={'3rem'}/>
         <ListContainer>
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
@@ -31,12 +32,12 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size={'3rem'}/>
+        <DiAndroid size={'3rem'}/>
         <ListContainer>
-          <ListTitle>UI/Ux</ListTitle>
+          <ListTitle>Mobile</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Tools like Figma
+            Android java
           </ListParagraph>
         </ListContainer>
       </ListItem>

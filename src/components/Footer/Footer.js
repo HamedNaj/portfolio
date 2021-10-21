@@ -24,27 +24,27 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href={'mailto:hpinger.dev@gmail.com'}>hpinger.dev@gmail.com</LinkItem>
+          <LinkItem href={'mailto:Hamed.Najafi.Haghi@gmail.com'}>Hamed.Najafi.Haghi@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
-        <SocialIconsContainer>
-          <CompanyContainer>
-            <Slogan>
-              Innovating projects
-            </Slogan>
-          </CompanyContainer>
-          <SocialContainer>
-            <SocialIcons href={'https://github.com'}>
-              <AiFillGithub size={'3rem'}/>
-            </SocialIcons>
-            <SocialIcons href={'https://linkedin.com'}>
-              <AiFillLinkedin size={'3rem'}/>
-            </SocialIcons>
-            <SocialIcons href={'https://instagram.com'}>
-              <AiFillInstagram size={'3rem'}/>
-            </SocialIcons>
-          </SocialContainer>
-        </SocialIconsContainer>
+        {/*<SocialIconsContainer>*/}
+          {/*<CompanyContainer>*/}
+            {/*<Slogan>*/}
+              {/*Innovating projects*/}
+            {/*</Slogan>*/}
+          {/*</CompanyContainer>*/}
+          {/*<SocialContainer>*/}
+            {/*<SocialIcons target="_blank" href={'https://github.com/HamedNaj?tab=repositories'}>*/}
+              {/*<AiFillGithub size={'3rem'}/>*/}
+            {/*</SocialIcons>*/}
+            {/*<SocialIcons target="_blank" href={'https://linkedin.com'}>*/}
+              {/*<AiFillLinkedin size={'3rem'}/>*/}
+            {/*</SocialIcons>*/}
+            {/*/!*<SocialIcons target="_blank" href={'https://instagram.com'}>*/}
+              {/*<AiFillInstagram size={'3rem'}/>*/}
+            {/*</SocialIcons>*!/*/}
+          {/*</SocialContainer>*/}
+        {/*</SocialIconsContainer>*/}
     </FooterWrapper>
   );
 };
