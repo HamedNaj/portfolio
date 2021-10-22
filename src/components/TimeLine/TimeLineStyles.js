@@ -74,18 +74,22 @@ export const CarouselItemTitle = styled.h4`
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+  // margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
     line-height: 28px;
-    margin-bottom: 4px;
+    margin-bottom: 4px;  
+    color:white;
+    -webkit-text-fill-color: white;
   }
   
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
+    -webkit-text-fill-color: white;
   }
+  
 `
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
