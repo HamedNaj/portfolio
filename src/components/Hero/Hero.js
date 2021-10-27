@@ -17,7 +17,7 @@ const Hero = () => (
         Most of my works are for banks so due to confidentiality reasons I can't put them here
       </SectionText>
       <Button onClick={() => window.open('/files/Hamed_Resume.pdf','_blank')} >
-        Learn More
+        Resume
       </Button>
     </LeftSection>
   </Section>
